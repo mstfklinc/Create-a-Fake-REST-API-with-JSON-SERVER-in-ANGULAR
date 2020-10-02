@@ -13,6 +13,7 @@ import { ProductFilterPipe } from './product/product-filter.pipe';
 import { AlertifyService } from './services/alertify.service';
 import { ProductAddForms1Component } from './product/product-add-forms1/product-add-forms1.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { ProductAddForms1Component } from './product/product-add-forms1/product-
     CategoryComponent,
     ProductComponent,
     ProductFilterPipe,
-    ProductAddForms1Component,
+    ProductAddForms1Component
+   
   ],
   imports: [
     BrowserModule,

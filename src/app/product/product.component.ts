@@ -39,7 +39,7 @@ export class ProductComponent implements OnInit {
 
   addToCard(product) {
 
-    this.alertifyService.success(product.name + " " + "sepete eklendi!")
+    this.alertifyService.success(product.name + " " + "SEPETE EKLENDİ!")
 
   }
 
